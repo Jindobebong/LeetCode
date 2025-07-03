@@ -40,7 +40,7 @@ class Solution(object):
         return sum
     
 
-a = input()
-b = input()
+# a = input()
+# b = input()
 
-print(Solution.addBinary("", a, b))
+# print(Solution.addBinary("", a, b))
