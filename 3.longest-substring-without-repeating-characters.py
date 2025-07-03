@@ -1,6 +1,6 @@
 class Solution(object):
     def lengthOfLongestSubstring(self, s):
-        maxi = -50005
+        maxi = 0
         seen = set()
         left = 0
         
@@ -12,7 +12,5 @@ class Solution(object):
             maxi = max(maxi, right - left + 1)
         return maxi
 
-s = input()
-print(Solution.lengthOfLongestSubstring(" ", s))
-
-# abcabcbb
+# s = input()
+# print(Solution.lengthOfLongestSubstring(" ", s))
